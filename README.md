@@ -36,8 +36,8 @@ DS18B20 + FSR402 + OLED Display → (RECEIVER ESP32) ← WiFi UDP ← (SENDER ES
      * LED Indicators: GPIO 12-15, 23, 25-27
 
 ## Software Configuration
-* **1. Install Required Libraries:**
-    #include <MAX30100_PulseOximeter.h>\n
+**1. Install Required Libraries:**
+    #include <MAX30100_PulseOximeter.h>
     #include <BlynkSimpleEsp32.h>
     #include <Adafruit_SSD1306.h>
     #include <DallasTemperature.h>
