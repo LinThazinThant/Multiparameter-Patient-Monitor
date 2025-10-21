@@ -11,7 +11,7 @@ A comprehensive wireless health monitoring system that tracks vital signs includ
 ## Hardware & Software
 * **Microcontrollers:** 2 ESP32
 * **Sensors:**
-* * MAX30100 Pulse Oximeter (Heart Rate & SpO2)
+  * MAX30100 Pulse Oximeter (Heart Rate & SpO2)
   * DS18B20 Temperature Sensor
   * FSR402 Force Sensitive Resistor (Respiratory Rate)
 * **Displays:** 2 OLED (128x32)
