@@ -53,6 +53,7 @@ A comprehensive wireless health monitoring system that tracks vital signs includ
 * Wiring schematic
 <img width="846" height="470" alt="image" src="https://github.com/user-attachments/assets/5f9eba5d-5a41-4c29-9b08-71efc64d321f" />
 <img width="942" height="1108" alt="image" src="https://github.com/user-attachments/assets/45eab604-efff-46b6-acd0-03a4d6d3e918" />
+
 * Real-time data on OLED screen
 
 * Mobile app interface
