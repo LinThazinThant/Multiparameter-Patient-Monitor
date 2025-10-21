@@ -20,9 +20,7 @@ A comprehensive wireless health monitoring system that tracks vital signs includ
 * **Indicators:** 8 LEDs (4 parameters with dual-color alerts (red, green))
 
 ## System Architecture
-DS18B20 + FSR402 + OLED Display → (RECEIVER ESP32) ← WiFi UDP ← (SENDER ESP32) ← MAX30100 + OLED Display
-                                             ↓
-                                        Blynk Cloud
+
 
 ## Setup & Installtion
 * **Hardware Connections**
@@ -37,9 +35,24 @@ DS18B20 + FSR402 + OLED Display → (RECEIVER ESP32) ← WiFi UDP ← (SENDER ES
 
 ## Software Configuration
 **1. Install Required Libraries:**
-    #include <MAX30100_PulseOximeter.h>
-    #include <BlynkSimpleEsp32.h>
-    #include <Adafruit_SSD1306.h>
-    #include <DallasTemperature.h>
-    #include <WiFiUdp.h>
-* 
+
+**2. Network Setup:**
+     * Update Wifi credentials in both sender and receiver code
+     * Configure sender IP address in receiver code
+     * Set up Blynk template with virtual pins:
+       * V6: SpO2, V7: BPM, V14: Respiratory Rate
+       * V2-3, V8-11, V15-16: LEDs
+**3. Upload Code:**
+     * Sender code to oximeter ESP32
+     * Receover code to main ESP32
+     * Monitor serial output at 115200 baud for connection status
+
+## Gallery
+
+Complete setup showing both ESP units
+<img width="858" height="496" alt="image" src="https://github.com/user-attachments/assets/40a7923d-d628-43be-959e-95ce7ccf4eee" />
+Wiring schematic
+
+Real-time data on OLED screen
+
+Mobile app interface
