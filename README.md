@@ -34,25 +34,44 @@ A comprehensive wireless health monitoring system that tracks vital signs includ
      * LED Indicators: GPIO 12-15, 23, 25-27
 
 ## Software Configuration
-**1. Install Required Libraries:**
+* **1. Install Required Libraries:**
 
-**2. Network Setup:**
+* **2. Network Setup:**
      * Update Wifi credentials in both sender and receiver code
      * Configure sender IP address in receiver code
      * Set up Blynk template with virtual pins:
        * V6: SpO2, V7: BPM, V14: Respiratory Rate
        * V2-3, V8-11, V15-16: LEDs
-**3. Upload Code:**
+* **3. Upload Code:**
      * Sender code to oximeter ESP32
      * Receover code to main ESP32
      * Monitor serial output at 115200 baud for connection status
 
 ## Gallery
+* Complete setup showing both ESP units
 
-Complete setup showing both ESP units
-<img width="858" height="496" alt="image" src="https://github.com/user-attachments/assets/40a7923d-d628-43be-959e-95ce7ccf4eee" />
-Wiring schematic
+* Wiring schematic
+<img width="846" height="470" alt="image" src="https://github.com/user-attachments/assets/5f9eba5d-5a41-4c29-9b08-71efc64d321f" />
+<img width="942" height="1108" alt="image" src="https://github.com/user-attachments/assets/45eab604-efff-46b6-acd0-03a4d6d3e918" />
+* Real-time data on OLED screen
 
-Real-time data on OLED screen
+* Mobile app interface
+<img width="1004" height="290" alt="image" src="https://github.com/user-attachments/assets/f6fd2f24-8d8d-498e-85a6-167bb3153fd1" />
+<img width="940" height="274" alt="image" src="https://github.com/user-attachments/assets/73e256f2-891b-4e59-84c6-b9e81ffa15f6" />
 
-Mobile app interface
+## Technical Details
+* **Data Communication Protocol**
+  * Sender → Receiver: UDP packets containing "BPM, SpO2" format
+  * Receiver Polling: HTTP GET requests to sender's web server
+  * Cloud Integration: Blynk virtual pins for real-time app updates
+
+## Alert Thresholds
+* **Temperature:** Normal = 34-37°C
+* **SpO2:** Normal ≥ 95%
+* **Heart Rate:** Normal = 60-120 bpm
+* **Respiratory Rate:** Normal = 12-15 breaths/minute
+
+ ## Future Improvements
+
+ ## Contributing
+ This project demonstrates advanced embedded systems integration for medical monitoring applications. Contributions for enhanced sensor accuracy, additional health parameters, or improved user interface are welcome.
