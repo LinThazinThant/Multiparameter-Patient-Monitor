@@ -35,9 +35,12 @@ A comprehensive wireless health monitoring system that tracks vital signs includ
 
 ## Software Configuration
 * **1. Install Required Libraries:**
-#include <Wire.h>
-#include "MAX30100_PulseOximeter.h"
+  <img width="1130" height="424" alt="image" src="https://github.com/user-attachments/assets/3bc9ba12-2a20-47d2-8dac-3179aae89e45" />
 
+  * Core hardware communication:
+  * Blynk: 
+  * Pulse oximeter:
+  * OneWire
 * **2. Network Setup:**
      * Update Wifi credentials in both sender and receiver code
      * Configure sender IP address in receiver code
