@@ -35,6 +35,8 @@ A comprehensive wireless health monitoring system that tracks vital signs includ
 
 ## Software Configuration
 * **1. Install Required Libraries:**
+#include <Wire.h>
+#include "MAX30100_PulseOximeter.h"
 
 * **2. Network Setup:**
      * Update Wifi credentials in both sender and receiver code
