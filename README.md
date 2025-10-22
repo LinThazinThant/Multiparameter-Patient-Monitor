@@ -36,11 +36,12 @@ A comprehensive wireless health monitoring system that tracks vital signs includ
 ## Software Configuration
 * **1. Install Required Libraries:**
   <img width="1130" height="424" alt="image" src="https://github.com/user-attachments/assets/3bc9ba12-2a20-47d2-8dac-3179aae89e45" />
-
-  * Core hardware communication:
-  * Blynk: 
-  * Pulse oximeter:
-  * OneWire
+  * Blynk: Blynk by Volodymyr (https://github.com/blynkkk/blynk-library)
+  * Pulse oximeter: MAX30100lib by OXullo (https://github.com/oxullo/Arduino-MAX30100)
+  * 
+  * OLED:
+    * Adafruit GFX (https://github.com/adafruit/Adafruit-GFX-Library)
+    * Adafruit SSD1306 (https://github.com/adafruit/Adafruit_SSD1306)
 * **2. Network Setup:**
      * Update Wifi credentials in both sender and receiver code
      * Configure sender IP address in receiver code
