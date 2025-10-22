@@ -1,6 +1,6 @@
 /*****
 * Multiparameter-Patient-Monitoring System - SENDER UNIT
-* This ESP32 reads pulse oximetry data (Heart rate, SpO2) data from MAX30100 sensor 
+* This ESP32 reads pulse oximetry (Heart rate, SpO2) data from MAX30100 sensor 
   and transfers it wirelessly to the receiver unit via UDP.
 * Hardware: ESP32, MAX30100 Pulse Oximeter, SSD1306 OLED Display
 * Developed by: [Lin Thazin Thant]
