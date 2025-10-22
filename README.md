@@ -14,7 +14,7 @@ A comprehensive wireless health monitoring system that tracks vital signs includ
   * MAX30100 Pulse Oximeter (Heart Rate & SpO2)
   * DS18B20 Temperature Sensor
   * FSR402 Force Sensitive Resistor (Respiratory Rate)
-* **Displays:** 2 OLED (128x32)
+* **Displays:** 2 OLED (128x64)
 * **Communication:** WiFi UDP, Blynk Cloud
 * **Software:** ArduinoIDE, Blynk IoT Platform
 * **Indicators:** 8 LEDs (4 parameters with dual-color alerts (red, green))
