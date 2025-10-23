@@ -12,7 +12,7 @@
 *  Respiratory rate (FSR402)
    
 ## *Block Diagram*
-<img width="592" height="298" alt="image" src="https://github.com/user-attachments/assets/d182b694-970e-4ac6-901f-9663a56ea360" />
+<img width="902" height="644" alt="image" src="https://github.com/user-attachments/assets/059ffa93-66a7-4d71-ac49-51dd725a7af6" />
 
 ## *Circuit Schematic*
 *  Sender ESP
