@@ -36,7 +36,6 @@ A comprehensive wireless health monitoring system that tracks vital signs includ
 ## Software Configuration
 * **1. Install Required Libraries:**
   <img width="1128" height="512" alt="image" src="https://github.com/user-attachments/assets/201c3fe3-cfd7-42f5-a854-68887aae3252" />
-
   * Blynk: Blynk by Volodymyr (https://github.com/blynkkk/blynk-library)
   * Pulse oximeter: MAX30100lib by OXullo (https://github.com/oxullo/Arduino-MAX30100)
   * Temperature:
