@@ -20,7 +20,7 @@ A comprehensive wireless health monitoring system that tracks vital signs includ
 * **Indicators:** 8 LEDs (4 parameters with dual-color alerts (red, green))
 
 ## System Architecture
-
+<img width="902" height="644" alt="image" src="https://github.com/user-attachments/assets/059ffa93-66a7-4d71-ac49-51dd725a7af6" />
 
 ## Setup & Installtion
 * **Hardware Connections**
@@ -38,7 +38,9 @@ A comprehensive wireless health monitoring system that tracks vital signs includ
   <img width="1130" height="424" alt="image" src="https://github.com/user-attachments/assets/3bc9ba12-2a20-47d2-8dac-3179aae89e45" />
   * Blynk: Blynk by Volodymyr (https://github.com/blynkkk/blynk-library)
   * Pulse oximeter: MAX30100lib by OXullo (https://github.com/oxullo/Arduino-MAX30100)
-  * 
+  * Temperature:
+    * OneWire by Jim
+    * DallasTemperature by Miles (https://github.com/milesburton/Arduino-Temperature-Control-Library)
   * OLED:
     * Adafruit GFX (https://github.com/adafruit/Adafruit-GFX-Library)
     * Adafruit SSD1306 (https://github.com/adafruit/Adafruit_SSD1306)
