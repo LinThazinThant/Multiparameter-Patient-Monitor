@@ -57,12 +57,20 @@ A comprehensive wireless health monitoring system that tracks vital signs includ
 
 ## Gallery
 * Complete setup showing both ESP units
+<img width="1342" height="1082" alt="image" src="https://github.com/user-attachments/assets/2a3bbca7-1e84-4657-97da-e34d7a495512" />
 
 * Wiring schematic
 <img width="846" height="470" alt="image" src="https://github.com/user-attachments/assets/5f9eba5d-5a41-4c29-9b08-71efc64d321f" />
 <img width="942" height="1108" alt="image" src="https://github.com/user-attachments/assets/45eab604-efff-46b6-acd0-03a4d6d3e918" />
 
 * Real-time data on OLED screen
+<img width="256" height="230" alt="image" src="https://github.com/user-attachments/assets/c61a894f-68a4-42dd-8437-9f6d9f75fa3e" />
+
+Note: Here, I only showed the result of testing with DS18B20 (temp sensor).
+
+<img width="240" height="232" alt="image" src="https://github.com/user-attachments/assets/b4553b69-432f-4b2c-b236-74e5568f8c01" />
+
+Note: This shows heart rate by visualization.
 
 * Mobile app interface
 <img width="1004" height="290" alt="image" src="https://github.com/user-attachments/assets/f6fd2f24-8d8d-498e-85a6-167bb3153fd1" />
