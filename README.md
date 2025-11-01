@@ -90,14 +90,14 @@ Note: This shows heart rate by visualization.
 
  ## Future Improvements
 * **Power management**
- * Add Li-ion battery pack with charging circuit for true portability.
- * Integrate small solar panel. 
+  * Add Li-ion battery pack with charging circuit for true portability.
+  * Integrate small solar panel. 
 * **Hardware**
- * Replace breadboard with customized PCB.
- * Create protective casing for all components.
+  * Replace breadboard with customized PCB.
+  * Create protective casing for all components.
 * **Software**
- * Apply local data storage for monitoring sessions. (SD card logging)
- * Enable doctor access to patient data.
+  * Apply local data storage for monitoring sessions. (SD card logging)
+  * Enable doctor access to patient data.
 
  ## Contributing
  This project demonstrates advanced embedded systems integration for medical monitoring applications. Contributions for enhanced sensor accuracy, additional health parameters, or improved user interface are welcome.
