@@ -13,7 +13,7 @@ We need to place our finger on the sensor (MAX30100). One thing to make sure is 
 
 <img width="504" height="790" alt="image" src="https://github.com/user-attachments/assets/ce9555fa-660e-4081-b9ed-9f2de7939d82" />
 
-photo credit to https://www.intechopen.com/chapters/66828
+Sensor placement photo credit to https://www.intechopen.com/chapters/66828.
 We need to place the sensor (FSR402) as in Figure 2. One thing to make sure is that the belt must be tight enough to measure correct respiratory rate. Here we can clearly see that in the last row leds (representing Respiratory rate), the green lights up, meaning that the respiratory rate  is normal between 12-15 breaths/minute.
 
 **Note:** I measured one sensor at a time. So only respective row of led lights up green while other rows light up red. 
